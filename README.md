@@ -8,9 +8,7 @@ _Requires alpha to be installed_ <br />
 
 
 **Create a Container Cluster Example** <br />
-`gcloud container clusters create my-ultimate-cluster \ <br />
---num-nodes=3 --machine-type=e2-small --zone=us-west2-a \ <br />
---issue-client-certificate --enable-basic-auth`
+`gcloud container clusters create my-ultimate-cluster \ --num-nodes=3 --machine-type=e2-small --zone=us-west2-a \ --issue-client-certificate --enable-basic-auth`
 
  
 
