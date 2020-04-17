@@ -1,5 +1,5 @@
 # tech-nugget-gcloud-shell
-Quick Reference - Useful commands
+Quick Reference - Useful commands <br />
 _For now, all here, in the future I will lay it out based on topic_
 
 **SSH to the GCP shell**
@@ -29,6 +29,10 @@ When creating a cluster through the gcloud cli, the config gets written here: <b
 ~/.kube/config
 `kubectl config view`
 Same does not happen when spinning up a cluster with Terraform
+=======
+`gcloud container clusters create my-ultimate-cluster\  
+--num-nodes=3 --machine-type=e2-small --zone=us-west2-a\  
+--issue-client-certificate --enable-basic-auth`
 
  
 **Collecting Pod data with kubectl <br />
